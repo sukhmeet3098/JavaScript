@@ -37,12 +37,26 @@ multi line Comment */
 
 // Assignment Operator
 
+// let a = 5;
+// let b = 2;
+
+// a += 4; // a = a + 4 = 5 + 4 = 9
+// a /= 4; // a = a / 4 = 5 / 4 = 1.25
+// b -= 4; // b = b - 4 = 2 - 4 = -2
+// b *= 4; // b = b * 4 = 2 * 4 = 8
+// a %= 4; // a = a % 4 = 5 % 4 = 1
+// b **= 4; // b = b ** 4 = 2 ** 4 = 16
+
+//Comparison Operators
+
 let a = 5;
 let b = 2;
 
-a += 4; // a = a + 4 = 5 + 4 = 9
-a /= 4; // a = a / 4 = 5 / 4 = 1.25
-b -= 4; // b = b - 4 = 2 - 4 = -2
-b *= 4; // b = b * 4 = 2 * 4 = 8
-a %= 4; // a = a % 4 = 5 % 4 = 1
-b **= 4; // b = b ** 4 = 2 ** 4 = 16
+console.log("a == b: ", a == b); // false
+console.log("a === b: ", a === b); // false
+console.log("a != b: ", a != b); // true
+console.log("a !== b: ", a !== b); // true
+console.log("a > b: ", a > b); // true
+console.log("a >= b: ", a >= b); // true
+console.log("a <= b: ", a <= b); // false
+console.log("a < b: ", a < b); // false
