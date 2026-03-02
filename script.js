@@ -192,10 +192,60 @@ multi line Comment */
 // }
 
 // Problem 2: Create the Game to Guess the right number.
-let gameNum = 25;
-let userNum = prompt("Enter the Game Number:");
+// let gameNum = 25;
+// let userNum = prompt("Enter the Game Number:");
 
-while (userNum != gameNum) {
-  userNum = prompt("You entered the wrong number. Guess Again:");
-}
-console.log("Congratulations, You guess the right number..");
+// while (userNum != gameNum) {
+//   userNum = prompt("You entered the wrong number. Guess Again:");
+// }
+// console.log("Congratulations, You guess the right number..");
+
+// Strings (Immutable in Nature)
+
+// let str = "Sukhmeet";
+// console.log(str.length);
+// console.log(str[0]);
+
+// // Template Literals
+
+// let output = `This is an template literals. ${1 + 2 + 3}`;
+// console.log(output);
+
+// // String Interpolation
+// const obj = {
+//   item: "pen",
+//   price: 10,
+// };
+
+// output = `The cost of ${obj.item} is ${obj.price} rupees.`;
+// console.log(output);
+
+// Strings In-Built Methods
+
+let str = "Sukhmeet Singh";
+console.log(str.toUpperCase());
+console.log(str.toLowerCase());
+
+// Trim to remove starting and ending white spaces.
+let str1 = "         Sukhmeet Singh        ";
+console.log(str1.trim());
+
+//Slice to get some part of the string slice(startindex, endindex (optional))
+console.log(str.slice(1, 4));
+
+// Concat Two Strings
+let firstName = "Sukhmeet";
+let lastName = "Singh";
+
+console.log(firstName.concat(lastName));
+console.log("My Full Name is:", firstName + lastName);
+
+// Replace is used to replace certain character or string with replace one charcter or string replace(searchVal, replaceVal)
+let str2 = "hello";
+console.log(firstName.replace("lo", "p")); // replace only first ocuurance string found in the string.
+
+str = "hellolololo";
+console.log(str.replaceAll("lo", "p"));
+
+//charAt is used to fetch the particular character from the string.
+console.log(str.charAt(0));
