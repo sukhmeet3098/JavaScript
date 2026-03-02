@@ -135,3 +135,67 @@ multi line Comment */
 // } else {
 //   console.log("Grade: F");
 // }
+
+// Loops
+
+// let sum = 0;
+// For Loop
+// for(let i = 1; i <= n; i++){
+//   sum = sum + i;
+// }
+// console.log("sum = ", sum);
+
+// While Loop
+// let i = 1;
+// while (i <= 5) {
+//   sum = sum + i;
+//   i++;
+// }
+// console.log("sum = ", sum);
+
+// do-while loop
+// let i = 20;
+// do {
+//   console.log("Sukhmeet Singh");
+//   i++;
+// } while (i <= 5);
+
+// For of Loop (Used in String and Arrays)
+
+// let str = "Sukhmeet";
+// let size = 0;
+// for (let val of str) {
+//   console.log("value is:", val);
+//   size++;
+// }
+// console.log(size);
+
+// For in Loop (Used in Objects and Arrays)
+
+// const student = {
+//   name: "Sukhmeet Singh",
+//   age: 28,
+//   cgpa: 9.85,
+//   isPass: true,
+// };
+
+// for (let key in student) {
+//   console.log("key=", key, "value= ", student[key]);
+// }
+
+//Problem 1 : Print all even numbers
+
+// for (let i = 0; i <= 100; i++) {
+//   if (i % 2 === 0) {
+//     console.log(i);
+//   }
+// }
+
+// Problem 2: Create the Game to Guess the right number.
+let gameNum = 25;
+let userNum = prompt("Enter the Game Number:");
+
+while (userNum != gameNum) {
+  userNum = prompt("You entered the wrong number. Guess Again:");
+}
+console.log("Congratulations, You guess the right number..");
