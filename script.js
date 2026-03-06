@@ -222,30 +222,30 @@ multi line Comment */
 
 // Strings In-Built Methods
 
-let str = "Sukhmeet Singh";
-console.log(str.toUpperCase());
-console.log(str.toLowerCase());
+// let str = "Sukhmeet Singh";
+// console.log(str.toUpperCase());
+// console.log(str.toLowerCase());
 
-// Trim to remove starting and ending white spaces.
-let str1 = "         Sukhmeet Singh        ";
-console.log(str1.trim());
+// // Trim to remove starting and ending white spaces.
+// let str1 = "         Sukhmeet Singh        ";
+// console.log(str1.trim());
 
-//Slice to get some part of the string slice(startindex, endindex (optional))
-console.log(str.slice(1, 4));
+// //Slice to get some part of the string slice(startindex, endindex (optional))
+// console.log(str.slice(1, 4));
 
-// Concat Two Strings
-let firstName = "Sukhmeet";
-let lastName = "Singh";
+// // Concat Two Strings
+// let firstName = "Sukhmeet";
+// let lastName = "Singh";
 
-console.log(firstName.concat(lastName));
-console.log("My Full Name is:", firstName + lastName);
+// console.log(firstName.concat(lastName));
+// console.log("My Full Name is:", firstName + lastName);
 
-// Replace is used to replace certain character or string with replace one charcter or string replace(searchVal, replaceVal)
-let str2 = "hello";
-console.log(firstName.replace("lo", "p")); // replace only first ocuurance string found in the string.
+// // Replace is used to replace certain character or string with replace one charcter or string replace(searchVal, replaceVal)
+// let str2 = "hello";
+// console.log(firstName.replace("lo", "p")); // replace only first ocuurance string found in the string.
 
-str = "hellolololo";
-console.log(str.replaceAll("lo", "p"));
+// str = "hellolololo";
+// console.log(str.replaceAll("lo", "p"));
 
-//charAt is used to fetch the particular character from the string.
-console.log(str.charAt(0));
+// //charAt is used to fetch the particular character from the string.
+// console.log(str.charAt(0));
